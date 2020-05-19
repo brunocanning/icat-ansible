@@ -1,5 +1,5 @@
 ---
-- hosts: hosts-all
+- hosts: icat_test_hosts
   become: true
   vars_files:
     - "group_vars/all/vars.yml"
@@ -10,12 +10,8 @@
     - role: icatdb
     - role: payara
     - role: authn-simple
-    - role: authn-anon
-    - role: authn-db
-    - role: authn-ldap
     - role: icat-lucene
     - role: icat-server
     - role: ids-storage_file
     - role: ids-server
     - role: topcat
-    - role: dev-common
