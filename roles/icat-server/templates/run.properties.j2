@@ -5,7 +5,7 @@
 lifetimeMinutes = 120
 
 # Provide CRUD access to authz tables
- rootUserNames = {% if ansible_local.local.instantiations.authn_simple is defined and ansible_local.local.instantiations.authn_simple == 'true' %}simple/root {% endif %}{% if ansible_local.local.instantiations.authn_db is defined and ansible_local.local.instantiations.authn_db == 'true' %}db/root {% endif %} 
+rootUserNames = simple/root anon/anon
 # Restrict total number of entities to return in a search call
 maxEntities = 10000
 
