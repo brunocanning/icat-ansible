@@ -106,6 +106,3 @@
 - name: "Set temporary fact to indicate icat-lucene is installed within play"
   set_fact:
     icat_lucene: true
-
-- name: Define variable to show icat-lucene is installed
-  icat_lucene: true
