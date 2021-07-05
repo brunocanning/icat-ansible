@@ -6,9 +6,9 @@
 - name: 'Set fact on host to record that icat-lucene has been instantiated'
   ini_file:
     path: /etc/ansible/facts.d/local.fact
-    section: 'instantiations'
-    option: 'icat_lucene'
-    value: 'true'
+    section: "instantiations"
+    option: "icat_lucene"
+    value: "true"
     no_extra_spaces: true
     create: false
 
