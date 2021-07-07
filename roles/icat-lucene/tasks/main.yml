@@ -6,7 +6,7 @@
 
 - name: "Download icat-lucene"
   get_url:
-    url: https://repo.icatproject.org/repo/org/icatproject/icat.lucene/{{ icat_lucene_version }}/icat.lucene-{{ icat_lucene_version }}-distro.zip
+    url: https://repo.icatproject.org/repo/org/icatproject/icat.lucene/{{ icat_lucene_version }}/icat.lucene-1.1.1-20200610.132602-1-distro.zip
     dest: /home/{{ payara_user }}/downloads
     owner: "{{ payara_user }}"
     group: "{{ payara_user }}"
