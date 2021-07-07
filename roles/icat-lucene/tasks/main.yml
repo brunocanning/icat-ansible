@@ -20,7 +20,7 @@
 
 - name: "Unarchive icat-lucene if not installed"
   unarchive:
-    src: /home/{{ payara_user }}/downloads/icat.lucene-{{ icat_lucene_version }}-distro.zip
+    src: /home/{{ payara_user }}/downloads/icat.lucene-1.1.1-20200610.132602-1-distro.zip
     dest: /home/{{ payara_user }}/install
     remote_src: true
     owner: "{{ payara_user }}"
